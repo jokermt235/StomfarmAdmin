@@ -1,0 +1,86 @@
+/*style to falcon*/
+
+body {
+	font: 14px Georgia, serif
+};
+
+hr, .uk-hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    text-align: inherit;
+    margin: 0 0 20px 0;
+    border: 0;
+    border-top: 1px solid #a1a1a1;
+};
+
+/*opacity hover*/
+.container {
+	position: relative;
+	width: 50%;
+	background: #50b948;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container:hover .image {
+	opacity: 0.3;
+}
+
+.container:hover .middle{
+	opacity: 1;
+}
+.text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+
+.uk-light {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.uk-card-badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    padding: 5px;
+}
+
+
+.grayhover {
+	filter: gray;
+	-webkit-filter:grayscale(1);
+	-webkit-transition: all .8s ease-in-out;	
+}
+.grayhover:hover {
+	filter: none;
+	-webkit-filter:grayscale(0);
+	-webkit-transform: scale (1.01;
+}
+
+.uk-offcanvas-bar .uk-nav-primary > li > a {
+	color: rgb(255, 255, 255);
+}
+
+.uk-table {
+    background-color: white;
+}
