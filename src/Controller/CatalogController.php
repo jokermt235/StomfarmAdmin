@@ -14,4 +14,36 @@ class CatalogController extends AppController
     public function commercial()
     {
     }
+
+    public function beans()
+    {
+    }
+
+    public function dryfruits()
+    {
+    }
+
+    public function nuts()
+    {
+    }
+
+    public function medherbs()
+    {
+    }
+
+    public function greens()
+    {
+    }
+
+    public function desiccator()
+    {
+    }
+
+    public function hugs()
+    {
+    }
+
+    public function agroequipment()
+    {
+    }
 }

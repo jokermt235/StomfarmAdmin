@@ -43,20 +43,24 @@
                             <li class="uk-parent">
                                 <a href="#"><?=__('Экспорт')?></a>
                                 <ul class="uk-nav-sub">
-                                    <li><a href="bean.html"><?=__('Бобовые культуры')?></a></li>
-                                    <li><a href="dried_fruits.html"><?=__('Сухофрукты')?></a></li>
-                                    <li><a href="nut.html"><?=__('Ореховые культуры')?></a></li>
-                                    <li><a href="medherbs.html"><?=__('Лекарственные растания,плоды и ягоды')?></a></li>
-                                    <li><a href="greens.html"><?=__('Свежие овощи и фрукты')?></a></li>
+                                    <li>
+                                        <a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'beans'])?>">
+                                            <?=__('Бобовые культуры')?>
+                                        </a>
+                                    </li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'dryfruits'])?>"><?=__('Сухофрукты')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'nuts'])?>"><?=__('Ореховые культуры')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'medherbs'])?>"><?=__('Лекарственные растания,плоды и ягоды')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'greens'])?>"><?=__('Свежие овощи и фрукты')?></a></li>
                                 </ul>
                             </li>
                             <li class="uk-parent">
                                 <a href="#"><?=__('Импорт')?></a>
                                 <ul class="uk-nav-sub">
-                                    <li><a href="desiccator.html"><?=__('Сушильные шкафы')?></a></li>
-                                    <li><a href="toys.html"><?=__('Мягкие игрушки')?></a></li>
-                                    <li><a href="agroequipment.html"><?=__('Сельхоз техника')?></a></li>
-                                    <li><a href="agroequipment.html"><?=__('Спецодежда')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'desiccator'])?>"><?=__('Сушильные шкафы')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'hugs'])?>"><?=__('Мягкие игрушки')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'agroequipment'])?>"><?=__('Сельхоз техника')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'agroequipment'])?>"><?=__('Спецодежда')?></a></li>
                                 </ul>
                             </li>
                             <li class="uk-parent">
