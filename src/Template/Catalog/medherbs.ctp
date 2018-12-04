@@ -19,10 +19,10 @@
     </div>
     <div class="panel">
         <div class="uk-overflow-auto">
-             <table class="uk-table uk-table-divider uk-table-hover" style="background-color: white">
+             <table class="uk-table uk-table-divider uk-table-hover uk-table-responsive" style="background-color: white">
                 <thead>
                     <tr>
-                        <th class="uk-table-shrink"><?=__('Наименование')?></th>
+                        <th class=""><?=__('Наименование')?></th>
                         <th class="uk-width-small"><?=__('Фото')?></th>
                         <th class="uk-width-small"><?=__('Калибр')?></th>
                         <th class="uk-table-expand"><?=__('Период Продаж (в сушеном виде)')?></th>
