@@ -1,0 +1,42 @@
+2018-12-04 17:12:38 Error: [Seld\JsonLint\ParsingException] "/var/www/html/falconB/composer.lock" does not contain valid JSON
+Parse error on line 1489:
+...composer/composer",<<<<<<< HEAD       
+---------------------^
+Expected: 'STRING' - It appears you have an extra trailing comma in /var/www/html/falconB/vendor/composer/composer/src/Composer/Json/JsonFile.php on line 299
+Stack Trace:
+#0 /var/www/html/falconB/vendor/composer/composer/src/Composer/Json/JsonFile.php(272): Composer\Json\JsonFile::validateSyntax('{\n    "_readme"...', '/var/www/html/f...')
+#1 /var/www/html/falconB/vendor/composer/composer/src/Composer/Json/JsonFile.php(101): Composer\Json\JsonFile::parseJson('{\n    "_readme"...', '/var/www/html/f...')
+#2 /var/www/html/falconB/vendor/cakephp/debug_kit/src/DebugInclude.php(65): Composer\Json\JsonFile->read()
+#3 /var/www/html/falconB/vendor/cakephp/debug_kit/src/Panel/IncludePanel.php(40): DebugKit\DebugInclude->__construct()
+#4 /var/www/html/falconB/vendor/cakephp/debug_kit/src/Panel/PanelRegistry.php(78): DebugKit\Panel\IncludePanel->__construct(Object(DebugKit\Panel\PanelRegistry), Array)
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(97): DebugKit\Panel\PanelRegistry->_create('DebugKit\\Panel\\...', 'Include', Array)
+#6 /var/www/html/falconB/vendor/cakephp/debug_kit/src/ToolbarService.php(183): Cake\Core\ObjectRegistry->load('DebugKit.Includ...')
+#7 /var/www/html/falconB/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(51): DebugKit\ToolbarService->loadPanels()
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-04 17:14:39 Error: [Seld\JsonLint\ParsingException] "/var/www/html/falconB/composer.lock" does not contain valid JSON
+Parse error on line 1489:
+...composer/composer",<<<<<<< HEAD       
+---------------------^
+Expected: 'STRING' - It appears you have an extra trailing comma in /var/www/html/falconB/vendor/composer/composer/src/Composer/Json/JsonFile.php on line 299
+Stack Trace:
+#0 /var/www/html/falconB/vendor/composer/composer/src/Composer/Json/JsonFile.php(272): Composer\Json\JsonFile::validateSyntax('{\n    "_readme"...', '/var/www/html/f...')
+#1 /var/www/html/falconB/vendor/composer/composer/src/Composer/Json/JsonFile.php(101): Composer\Json\JsonFile::parseJson('{\n    "_readme"...', '/var/www/html/f...')
+#2 /var/www/html/falconB/vendor/cakephp/debug_kit/src/DebugInclude.php(65): Composer\Json\JsonFile->read()
+#3 /var/www/html/falconB/vendor/cakephp/debug_kit/src/Panel/IncludePanel.php(40): DebugKit\DebugInclude->__construct()
+#4 /var/www/html/falconB/vendor/cakephp/debug_kit/src/Panel/PanelRegistry.php(78): DebugKit\Panel\IncludePanel->__construct(Object(DebugKit\Panel\PanelRegistry), Array)
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(97): DebugKit\Panel\PanelRegistry->_create('DebugKit\\Panel\\...', 'Include', Array)
+#6 /var/www/html/falconB/vendor/cakephp/debug_kit/src/ToolbarService.php(183): Cake\Core\ObjectRegistry->load('DebugKit.Includ...')
+#7 /var/www/html/falconB/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(51): DebugKit\ToolbarService->loadPanels()
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
