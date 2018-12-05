@@ -42,4 +42,8 @@ class AboutController extends AppController
 
     }
 
+    public function contact()
+    {
+    }
+
 }

@@ -46,4 +46,21 @@ class CatalogController extends AppController
     public function agroequipment()
     {
     }
+
+    public function boiler()
+    {
+    }
+
+    public function juicer()
+    {
+    }
+
+    public function agrobuild()
+    {
+    }
+
+    public function seedlings()
+    {
+    }
+
 }

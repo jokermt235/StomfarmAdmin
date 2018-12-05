@@ -66,18 +66,18 @@
                             <li class="uk-parent">
                                 <a href="#"><?=__('Собст. производство и наши услуги')?></a>
                                 <ul class="uk-nav-sub">
-                                    <li><a href="boiler.html"><?=__('Котлы "Termolux"')?></a></li>
-                                    <li><a href="juicer.html"><?=__('Соковыжималки')?></a></li>
-                                    <li><a href="agrobuild.html"><?=__('Услуги агростроительства')?></a></li>
-                                    <li><a href="seedlings.html"><?=__('Рассады')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'boiler'])?>"><?=__('Котлы "Termolux"')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'juicer'])?>"><?=__('Соковыжималки')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'agrobuild'])?>"><?=__('Услуги агростроительства')?></a></li>
+                                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'seedlings'])?>"><?=__('Рассады')?></a></li>
                                 </ul>
                             </li>
                             <li><a href="<?= $this->Url->build(['controller'=>'catalog','action'=>'commercial'])?>"><?=__('Коммерческие предложения')?></a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="news.html"><?=__('Новости')?></a></li>
-                <li><a href="contact.html"><?=__('Контакты')?></a></li>
+                <li><a href="<?= $this->Url->build(['controller'=>'news','action'=>'index'])?>"><?=__('Новости')?></a></li>
+                <li><a href="<?= $this->Url->build(['controller'=>'About','action'=>'contact'])?>"><?=__('Контакты')?></a></li>
             </ul>
             <ul class="uk-navbar-nav uk-margin-left uk-visible@m">
                 <li>
