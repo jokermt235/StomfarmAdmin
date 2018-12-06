@@ -9332,3 +9332,700 @@ Stack Trace:
 2018-12-05 11:42:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2018-12-05 12:02:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2018-12-05 12:02:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 05:38:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 05:38:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:28:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:46:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:49:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:50:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:50:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:51:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:51:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:52:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:52:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:52:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:52:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:53:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:53:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:55:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:56:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:57:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:57:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:57:44 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 07:57:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:57:47 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 07:57:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:57:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:57:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:57:58 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 07:58:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:58:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 07:58:52 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:00:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:00:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:00:45 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:00:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:00:58 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:01:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:01:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:01:24 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:01:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:01:28 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:01:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:01:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:01:35 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add?title=&description=
+Referer URL: http://localhost/falconB/news/add?title=&description=
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:34:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:34:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:34:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:34:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:34:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:34:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:34:30 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:40:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:40:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:40:04 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:40:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:40:35 Error: [Cake\Controller\Exception\MissingActionException] Action NewsController::upload() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'upload',
+  'prefix' => '',
+  'plugin' => false,
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-12-06 08:40:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:40:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:40:43 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 08:40:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:40:56 Error: [Cake\Controller\Exception\MissingActionException] Action NewsController::upload() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'NewsController',
+  'action' => 'upload',
+  'prefix' => '',
+  'plugin' => false,
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-12-06 08:56:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 08:56:55 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:13:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:13:43 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:14:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:14:57 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 09:15:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:15:06 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:16:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:16:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:16:22 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 09:17:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:34:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:34:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:34:23 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-06 09:35:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:35:18 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:36:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:37:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:37:41 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:37:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:38:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:38:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:38:22 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:39:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:39:13 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:39:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:41:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:41:04 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:41:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:41:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:41:09 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/upload.ctp',
+)
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/upload')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-06 09:41:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:41:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:41:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:47:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:47:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 09:47:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:23:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:23:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:23:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:27:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:27:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:27:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:27:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:27:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:36:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:36:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:51:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:52:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:52:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:52:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:52:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:52:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:52:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:52:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:53:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:53:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:53:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:55:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:55:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 10:56:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 11:35:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 11:35:19 Error: [Error] Class 'App\Controller\Folder' not found
+Request URL: /news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(609): App\Controller\NewsController->add()
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2018-12-06 11:36:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 11:38:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 11:39:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-06 12:09:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.

@@ -2,7 +2,8 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\Filesystem\Folder;
+use Cake\Filesystem\File;
 /**
  * News Controller
  *
@@ -51,11 +52,15 @@ class NewsController extends AppController
         if ($this->request->is('post')) {
             $news = $this->News->patchEntity($news, $this->request->getData());
             if ($this->News->save($news)) {
-                $this->Flash->success(__('The news has been saved.'));
-
-                return $this->redirect(['action' => 'index']);
+                //$this->Flash->success(__('The news has been saved.'));
+                //return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The news could not be saved. Please, try again.'));
+        }else{
+            $token = md5(time());
+            $dir = new Folder();
+            $dir->create("/var/www/html/falconB/webroot/img/news/tmp/$token");
+            $this->set('token', $token);
         }
         $this->set(compact('news'));
     }
@@ -102,5 +107,11 @@ class NewsController extends AppController
         }
 
         return $this->redirect(['action' => 'index']);
+    }
+
+    public function upload()
+    {
+        $token = $this->request->header('Token');
+        $this->set('_serialize', 'hello world');
     }
 }
