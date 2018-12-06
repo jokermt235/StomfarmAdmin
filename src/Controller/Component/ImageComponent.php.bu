@@ -1,0 +1,113 @@
+<?php
+
+namespace App\Controller\Component;
+use Cake\Core\Configure;
+use Cake\Controller\Component;
+use Cake\Controller\ComponentRegistry;
+
+
+/**
+ * Image component
+ */
+class ImageComponent extends Component
+{
+    
+    /**
+     * Default configuration.
+     *
+     * @var array
+     */
+    protected $_defaultConfig = [];
+    
+    private $image_extensions = ['png','jpg','jpeg','gif','bmp'];
+    
+    public function images($dir){
+        $files = [];
+        if (is_dir($dir)){
+            if ($dh = opendir($dir)){
+                while (($file = readdir($dh)) !== false){
+                    $files[] = $file;
+                }
+                closedir($dh);
+            }
+        }
+
+        return $files;
+    }
+
+    public function thumbs($dir){
+        $files = [];
+        if (is_dir($dir)){
+            if ($dh = opendir($dir)){
+                while (($file = readdir($dh)) !== false){
+                    if(strpos($file,'small_') !== false){
+                        $files[] = $file;
+                    }
+                }
+                closedir($dh);
+            }
+        }
+
+        return $files;
+    }
+
+    public function upload($data, $image_dir){
+        $fileUrl = '';
+        if (!is_dir($image_dir)) {
+                mkdir($image_dir, 0777, true);
+        }
+        if($data){
+            $extension = $this->getImageExtension($data['images']['name']);
+            if(in_array($extension, $this->image_extensions)){
+                $fileUrl = time().'_'.md5($data['images']['name']).".$extension";
+                $move_dir = $image_dir.$fileUrl;
+                move_uploaded_file($data['images']['tmp_name'], $move_dir);
+                $this->createSmallImage($move_dir);
+            }
+        }
+
+        return $fileUrl;
+    }
+
+    private function getImageExtension($uploadfile){
+        return substr(strtolower(strrchr($uploadfile, '.')), 1);
+    }
+
+    public function delete($image,$image_path){
+        if(strpos($image,'small_') !== false){
+            unlink($image_path.$image);
+            unlink($image_path.str_replace('small_','',$image));
+        }else{
+            unlink($image_path.$image);
+            unlink($image_path."small_".$image);
+        }
+
+        return true;
+    }
+    
+    public function createSmallImage($big_image){
+        require_once(ROOT.DS.'vendor'.DS.'Imagick'.DS.'CImagick.php');
+        $img = new \CImagick();
+        $im = $img->loadImage($big_image);
+        $imageprops = $im->getImageGeometry();
+        $width = $imageprops['width'];
+        $height = $imageprops['height'];
+        if($width > $height){
+                $newHeight = 560;
+                    $newWidth = (373 / $height) * $width;
+        }else{
+            $newWidth = 560;
+            $newHeight = (373 / $width) * $height;
+        }
+        $im->resizeImage($newWidth,$newHeight, $im::FILTER_LANCZOS, 0.9, true);
+        $im->cropImage (373,560,0,0);
+        
+        $big_filename = basename($big_image);
+
+        $small_filename = "small_".$big_filename;
+
+        $small_image = str_replace($big_filename,$small_filename,$big_image);
+
+        $im->writeImage($small_image);
+    }
+}
