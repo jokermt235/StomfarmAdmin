@@ -4,6 +4,7 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Cake\Filesystem\Folder;
 use Cake\Filesystem\File;
+use Cake\Event\Event;
 /**
  * News Controller
  *
@@ -12,6 +13,13 @@ use Cake\Filesystem\File;
  */
 class NewsController extends AppController
 {
+    
+    public function beforeFilter(Event $event)
+    {
+        //$this->getEventManager()->off($this->Csrf);
+        //$this->eventManager()->off($this->Csrf);
+    }
+    public $components = ['Image'];
 
     /**
      * Index method
@@ -49,19 +57,36 @@ class NewsController extends AppController
     public function add()
     {
         $news = $this->News->newEntity();
+        $dir = new Folder();
+        $token = md5(time());
+        $tmp_dir = "/var/www/html/falconB/webroot/img/news/tmp/$token";
+        $dir->create($tmp_dir);
+        $this->set('token', $token);
+        
         if ($this->request->is('post')) {
             $news = $this->News->patchEntity($news, $this->request->getData());
             if ($this->News->save($news)) {
-                //$this->Flash->success(__('The news has been saved.'));
+                $news_dir = new Folder();
+                $id = $this->News->id;
+                $dir_name = "/var/www/html/falconB/webroot/img/news/$id/";
+                $news_dir->create($dir_name);
+                $dir->copy([
+                    'to' => $dir_name,
+                    'from' => $tmp_dir, // Will cause a cd() to occur
+                    'mode' => 0755,
+                    'skip' => ['skip-me.php', '.git'],
+                    'scheme' => Folder::SKIP  // Skip directories/files that already exist.
+                ]);
+                $this->News->image = $dir_name;
+                $this->News->save($news);
+                $dir->remove();
+                $this->Flash->success(__('The news has been saved.'));
                 //return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The news could not be saved. Please, try again.'));
-        }else{
-            $token = md5(time());
-            $dir = new Folder();
-            $dir->create("/var/www/html/falconB/webroot/img/news/tmp/$token");
-            $this->set('token', $token);
         }
+        
+        $this->set('token', $token);
         $this->set(compact('news'));
     }
 
@@ -111,7 +136,24 @@ class NewsController extends AppController
 
     public function upload()
     {
+        $this->viewBuilder()->setLayout('ajax');
         $token = $this->request->header('Token');
-        $this->set('_serialize', 'hello world');
+        $files = $this->request->data['files'];
+        $tmp_dir = "/var/www/html/falconB/webroot/img/news/tmp/$token/";
+        if(!empty($files)){
+            $data = [];
+            $data['upload_image'] = $files[0];
+            $file_name = $this->Image->upload($data, $tmp_dir);
+        }
+        $this->set('file_name', $file_name);
+    }
+
+    public function remove($file_name)
+    {
+        $token = $this->request->header('Token');
+        $tmp_file = "/var/www/html/falconB/webroot/img/news/tmp/$token/$file_name";
+        $tmp_file_small = "/var/www/html/falconB/webroot/img/news/tmp/$token/small_$file_name";
+        unlink($tmp_file_small);
+        unlink($tmp_file);
     }
 }

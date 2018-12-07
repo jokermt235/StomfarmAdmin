@@ -8,7 +8,7 @@
         </div>
         <div class="uk-width-expand@m">
             <div class="uk-margin-large-bottom">
-                <form class="uk-form-horizontal uk-margin-large uk-padding-large" enctype="multipart/form-data" method="POST">
+                <form class="uk-form-horizontal uk-margin-large uk-padding-large" enctype="multipart/form-data" method="POST" action="" id="form">
                     <div class="uk-margin">
                         <label class="uk-form-label" for="form-horizontal-text">Заголовок:</label>
                         <div class="uk-form-controls">
@@ -23,12 +23,6 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <label class="uk-form-label"></label>
-                        <div class="uk-form-controls">
-                            <button class="uk-button uk-button-default" type="submit" style="background: #289246;color:white">Сохранить</button>
-                        </div>
-                    </div>
-                    <div class="uk-margin">
                         <div class="js-upload uk-placeholder uk-text-center">
                             <span uk-icon="icon: cloud-upload"></span>
                             <div class="uk-form-custom">
@@ -36,7 +30,15 @@
                                 <span class="uk-link">Выбрать файлы</span>
                             </div>
                         </div>
+                        <div id="upload_preview" uk-grid>
+                        </div>
                         <progress id="js-progressbar" class="uk-progress" value="0" max="100"></progress>
+                    </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label"></label>
+                        <div class="uk-form-controls">
+                            <a id="submit" href="javascript:" class="uk-button uk-button-default" style="background: #289246;color:white">Сохранить</a>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -49,6 +51,9 @@
     var upload_url = "<?=$this->Url->build(['controller'=>'News','action'=>'upload'])?>";
     var csrfToken = <?= json_encode($this->request->getParam('_csrfToken')) ?>;
     var token = "<?= $token?>";
+    var tmp_root = '<?= $this->Url->assetUrl("/img/news/tmp/$token/")?>';
+    var file_remove = '<?= $this->Url->build(['controller'=>'News','action'=>'remove'])?>';
+    var news_save_url = '<?= $this->Url->build(['controller'=>'News','action'=>'add'])?>';
 
     UIkit.upload('.js-upload', {
 
@@ -101,15 +106,58 @@
         },
 
         completeAll: function () {
-            console.log('completeAll', arguments);
-
-            setTimeout(function () {
+            //console.log('completeAll', arguments);
+            var file = arguments[0].response;
+            console.log('completeAll', arguments[0].response);
+            /*setTimeout(function () {
                 bar.setAttribute('hidden', 'hidden');
-            }, 1000);
-
-            alert('Upload Completed');
+            }, 1000);*/
+            var html = 
+            "<div>"+
+                "<div style='color:red; font-weight:bolder;cursor:pointer'" + "image=" + arguments[0].response + " onclick='deleteImage(this)'>" + "X</div>"+
+                "<img src='" + tmp_root + "small_" +file +"'>"+
+            "</div>";
+            $('#upload_preview').append(html);
+            //alert('Upload Completed');
         }
 
     });
+
+    $('#submit').click(function(){
+        var form_data = $("#form").serializeArray();
+        console.log(form_data);
+        $.ajax({
+            type: "POST",
+            beforeSend: function(request) {
+                request.setRequestHeader("Token", token);
+                request.setRequestHeader('X-CSRF-Token',csrfToken);
+            },
+            data : form_data,
+            url: news_save_url,
+            processData: false,
+            success: function(msg) {
+            }
+        });
+
+    });
+
+    function deleteImage(element)
+    {
+        console.log(element);
+        var file_remove_url = file_remove +"/" + $(element).attr('image');
+		$.ajax({
+            type: "POST",
+            beforeSend: function(request) {
+                request.setRequestHeader("Token", token);
+                request.setRequestHeader('X-CSRF-Token',csrfToken);
+            },
+            url: file_remove_url,
+            processData: false,
+            success: function(msg) {
+                $(element).parent().remove();
+            }
+        });
+        alert($(element).attr('image'));
+    }
 
 </script>

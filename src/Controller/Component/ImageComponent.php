@@ -23,13 +23,17 @@ class ImageComponent extends Component
     private $image_extensions = ['png','jpg','jpeg','gif','bmp'];
 
 
-    public function upload($data){
+    public function upload($data, $file_path = null){
         $fileUrl = '';
         if($data){
             $extension = $this->getImageExtension($data['upload_image']['name']);
             if(in_array($extension, $this->image_extensions)){
                 $fileUrl = time().'_'.md5($data['upload_image']['name']).".$extension";
-                $move_dir = Configure::read('Falcon.Images.upload_path').$fileUrl;
+                if(empty($file_path))
+                {
+                    $file_path = Configure::read('Falcon.Images.upload_path').$fileUrl;
+                }
+                $move_dir = $file_path.$fileUrl;
                 move_uploaded_file($data['upload_image']['tmp_name'], $move_dir);
                 $this->createSmallImage($move_dir);
             }

@@ -10029,3 +10029,1385 @@ Stack Trace:
 2018-12-06 11:38:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2018-12-06 11:39:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2018-12-06 12:09:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 06:03:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 06:14:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 06:14:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 06:14:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 06:51:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 07:11:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:00:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:17:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:17:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:17:42 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:17:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:17:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:31:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:39:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:39:52 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:39:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:39:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:46:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:46:19 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:46:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:46:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:46:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:46:59 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:46:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:46:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:47:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:47:32 Warning: Warning (2): move_uploaded_file(): The second argument to copy() function cannot be a directory in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 137
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:47:32 Warning: Warning (2): move_uploaded_file() [<a href='https://secure.php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpsp4NeY' to '/var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976' in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 137
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:47:32 Error: [ImagickException] The path is a directory: /var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/Imagick/CImagick.php(4): Imagick->__construct('/var/www/html/f...')
+#1 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(57): CImagick->loadImage('/var/www/html/f...')
+#2 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(38): App\Controller\Component\ImageComponent->createSmallImage('/var/www/html/f...')
+#3 /var/www/html/falconB/src/Controller/NewsController.php(137): App\Controller\Component\ImageComponent->upload(Array, '/var/www/html/f...')
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(609): App\Controller\NewsController->upload()
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2018-12-07 08:47:32 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:47:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:47:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:51:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:51:42 Warning: Warning (2): move_uploaded_file(): The second argument to copy() function cannot be a directory in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 136
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:51:42 Warning: Warning (2): move_uploaded_file() [<a href='https://secure.php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpOJEsso' to '/var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976' in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 136
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:51:42 Error: [ImagickException] The path is a directory: /var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/Imagick/CImagick.php(4): Imagick->__construct('/var/www/html/f...')
+#1 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(57): CImagick->loadImage('/var/www/html/f...')
+#2 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(38): App\Controller\Component\ImageComponent->createSmallImage('/var/www/html/f...')
+#3 /var/www/html/falconB/src/Controller/NewsController.php(136): App\Controller\Component\ImageComponent->upload(Array, '/var/www/html/f...')
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(609): App\Controller\NewsController->upload()
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2018-12-07 08:51:43 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:51:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:51:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:56:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:56:28 Warning: Warning (2): move_uploaded_file(): The second argument to copy() function cannot be a directory in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 136
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:56:28 Warning: Warning (2): move_uploaded_file() [<a href='https://secure.php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpCT9kqZ' to '/var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976/' in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 136
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:56:29 Error: [ImagickException] The path is a directory: /var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976/
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/Imagick/CImagick.php(4): Imagick->__construct('/var/www/html/f...')
+#1 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(57): CImagick->loadImage('/var/www/html/f...')
+#2 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(38): App\Controller\Component\ImageComponent->createSmallImage('/var/www/html/f...')
+#3 /var/www/html/falconB/src/Controller/NewsController.php(136): App\Controller\Component\ImageComponent->upload(Array, '/var/www/html/f...')
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(609): App\Controller\NewsController->upload()
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2018-12-07 08:56:29 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:56:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:56:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:58:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:58:27 Warning: Warning (2): move_uploaded_file(): The second argument to copy() function cannot be a directory in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 137
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:58:27 Warning: Warning (2): move_uploaded_file() [<a href='https://secure.php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpVGWa1k' to '/var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976/' in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 137
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:58:27 Error: [ImagickException] The path is a directory: /var/www/html/falconB/webroot/img/news/tmp/01ab3e73ff341a3fd32fbc1a6535d976/
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/Imagick/CImagick.php(4): Imagick->__construct('/var/www/html/f...')
+#1 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(57): CImagick->loadImage('/var/www/html/f...')
+#2 /var/www/html/falconB/src/Controller/Component/ImageComponent.php(38): App\Controller\Component\ImageComponent->createSmallImage('/var/www/html/f...')
+#3 /var/www/html/falconB/src/Controller/NewsController.php(137): App\Controller\Component\ImageComponent->upload(Array, '/var/www/html/f...')
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(609): App\Controller\NewsController->upload()
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2018-12-07 08:58:27 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:58:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:58:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:59:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 08:59:56 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:59:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 08:59:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 09:20:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:28:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:29:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:29:01 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Layout/json.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout/json.ctp',
+)
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(832): Cake\View\View->_getLayoutFileName('json')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(808): Cake\View\View->renderLayout('', 'json')
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2018-12-07 09:30:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:30:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:35:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:35:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:38:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:41:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:41:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:41:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:41:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:41:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:41:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:41:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/news/tmp/d47861d677171bd85be8e9cbfdb435ab/
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-12-07 09:42:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:42:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:42:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:42:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/news/tmp/9ddf044f62e6445be6359c4d45401a5a/
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-12-07 09:42:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:42:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:43:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 09:44:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:06:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:06:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:06:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:06:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:07:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:07:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:08:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:08:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:09:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:09:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:10:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:10:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:10:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:10:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:10:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:24:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:24:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:25:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:25:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:25:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:25:21 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/remove/1544178317_0ba9d094eeb587d84c48a50a8a7fc8bc.png
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-07 10:26:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:26:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:26:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:26:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:26:39 Error: [Cake\View\Exception\MissingTemplateException] Template file "News/remove.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'News/remove.ctp',
+)
+Request URL: /news/remove/1544178393_0ba9d094eeb587d84c48a50a8a7fc8bc.png
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('News/remove')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-12-07 10:27:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:27:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:27:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:27:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:30:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:30:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:30:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:30:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:46:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:46:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:46:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:46:59 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-07 10:50:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:50:10 Warning: Warning (2): Declaration of App\Controller\NewsController::beforeFilter(App\Controller\Event $event) should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [/var/www/html/falconB/src/Controller/NewsController.php, line 13]
+Request URL: /news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+include - APP/Controller/NewsController.php, line 13
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE/src/Core/App.php, line 152
+Cake\Core\App::className() - CORE/src/Core/App.php, line 64
+Cake\Http\ControllerFactory::getControllerClass() - CORE/src/Http/ControllerFactory.php, line 92
+Cake\Http\ControllerFactory::create() - CORE/src/Http/ControllerFactory.php, line 37
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 91
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:50:10 Error: [TypeError] Argument 1 passed to App\Controller\NewsController::beforeFilter() must be an instance of App\Controller\Event, instance of Cake\Event\Event given, called in /var/www/html/falconB/vendor/cakephp/cakephp/src/Event/EventManager.php on line 353
+Request URL: /news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Event/EventManager.php(353): App\Controller\NewsController->beforeFilter(Object(Cake\Event\Event))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Event/EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(114): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Controller/Controller.php(671): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\NewsController))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+
+
+2018-12-07 10:50:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:50:38 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:50:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:50:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:51:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:51:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:51:03 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-07 10:51:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:51:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:51:27 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-07 10:52:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:52:33 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-07 10:57:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:57:29 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:57:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:57:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:57:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:57:41 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:57:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:57:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 10:57:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 10:57:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/news/tmp/7e09c081535cb4666fcd2a6ce019cd2f/small_%3Cpre%20class=%22cake-error%22%3E%3Ca%20href=%22javascript:void(0);%22%20onclick=%22document.getElementById(
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-12-07 11:08:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 11:08:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 11:08:33 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-07 11:08:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 11:08:42 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /news/add
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+2018-12-07 11:39:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 11:39:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:43:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:43:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:43:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:43:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:44:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:44:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:44:56 Warning: Warning (2): move_uploaded_file(/var/www/html/falconB/webroot/img/news/tmp/5fe68fd2e78e9d8d5a460a1b96821b61/1544186696_0ba9d094eeb587d84c48a50a8a7fc8bc.png): failed to open stream: No such file or directory in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 146
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 12:44:56 Warning: Warning (2): move_uploaded_file() [<a href='https://secure.php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpSmp4gw' to '/var/www/html/falconB/webroot/img/news/tmp/5fe68fd2e78e9d8d5a460a1b96821b61/1544186696_0ba9d094eeb587d84c48a50a8a7fc8bc.png' in [/var/www/html/falconB/src/Controller/Component/ImageComponent.php, line 37]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+move_uploaded_file - [internal], line ??
+App\Controller\Component\ImageComponent::upload() - APP/Controller/Component/ImageComponent.php, line 37
+App\Controller\NewsController::upload() - APP/Controller/NewsController.php, line 146
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 609
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 12:44:56 Error: [InvalidArgumentException] Invalid status code: 435. Use a valid HTTP status code in range 1xx - 5xx.
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Response.php(969): Cake\Http\Response->_setStatus(435, '')
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(179): Cake\Http\Response->withStatus(435)
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(118): Cake\Error\ExceptionRenderer->render()
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(100): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException(Object(ImagickException), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#8 {main}
+
+
+2018-12-07 12:44:56 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 12:44:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 12:44:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /news/upload
+Referer URL: http://localhost/falconB/news/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-12-07 12:44:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:44:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/news/tmp/5fe68fd2e78e9d8d5a460a1b96821b61/small_%3Cpre%20class=%22cake-error%22%3E%3Ca%20href=%22javascript:void(0);%22%20onclick=%22document.getElementById(
+Referer URL: http://localhost/falconB/news/add
+Stack Trace:
+#0 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/falconB/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/falconB/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/falconB/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/falconB/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-12-07 12:45:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:45:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:45:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:46:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-12-07 12:46:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
