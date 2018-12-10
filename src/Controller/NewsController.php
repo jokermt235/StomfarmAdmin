@@ -19,7 +19,7 @@ class NewsController extends AppController
         //$this->getEventManager()->off($this->Csrf);
         //$this->eventManager()->off($this->Csrf);
     }
-    public $components = ['Image'];
+    public $components = ['Image','Translit'];
 
     /**
      * Index method
@@ -40,8 +40,14 @@ class NewsController extends AppController
      * @return \Cake\Http\Response|void
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function view($id = null)
+    public function view($url = null)
     {
+        $pattern = "/id-[0-9]+$/"; 
+        preg_match($pattern,$url,$matches);
+        if(!empty($matches)){
+            $mat = explode("-",$matches[0]);
+            $id = $mat[1];
+        }  
         $news = $this->News->get($id, [
             'contain' => []
         ]);
@@ -57,29 +63,17 @@ class NewsController extends AppController
     public function add()
     {
         $news = $this->News->newEntity();
-        $dir = new Folder();
         $token = md5(time());
-        $tmp_dir = "/var/www/html/falconB/webroot/img/news/tmp/$token";
-        $dir->create($tmp_dir);
         $this->set('token', $token);
         
         if ($this->request->is('post')) {
-            $news = $this->News->patchEntity($news, $this->request->getData());
-            if ($this->News->save($news)) {
-                $news_dir = new Folder();
-                $id = $this->News->id;
-                $dir_name = "/var/www/html/falconB/webroot/img/news/$id/";
-                $news_dir->create($dir_name);
-                $dir->copy([
-                    'to' => $dir_name,
-                    'from' => $tmp_dir, // Will cause a cd() to occur
-                    'mode' => 0755,
-                    'skip' => ['skip-me.php', '.git'],
-                    'scheme' => Folder::SKIP  // Skip directories/files that already exist.
-                ]);
-                $this->News->image = $dir_name;
+            $data = $this->request->getData();
+            $news = $this->News->patchEntity($news, $data);
+            $result = $this->News->save($news);
+            if ($result) {
+                $id = $result->id;
+                $news->url = $this->Translit->translit($data['title']).'-id-'.$id;
                 $this->News->save($news);
-                $dir->remove();
                 $this->Flash->success(__('The news has been saved.'));
                 //return $this->redirect(['action' => 'index']);
             }
@@ -139,7 +133,7 @@ class NewsController extends AppController
         $this->viewBuilder()->setLayout('ajax');
         $token = $this->request->header('Token');
         $files = $this->request->data['files'];
-        $tmp_dir = "/var/www/html/falconB/webroot/img/news/tmp/$token/";
+        $tmp_dir = "/var/www/html/falconB/webroot/img/news/img/";
         if(!empty($files)){
             $data = [];
             $data['upload_image'] = $files[0];
@@ -151,8 +145,8 @@ class NewsController extends AppController
     public function remove($file_name)
     {
         $token = $this->request->header('Token');
-        $tmp_file = "/var/www/html/falconB/webroot/img/news/tmp/$token/$file_name";
-        $tmp_file_small = "/var/www/html/falconB/webroot/img/news/tmp/$token/small_$file_name";
+        $tmp_file = "/var/www/html/falconB/webroot/img/news/img/$file_name";
+        $tmp_file_small = "/var/www/html/falconB/webroot/img/news/img/small_$file_name";
         unlink($tmp_file_small);
         unlink($tmp_file);
     }

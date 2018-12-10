@@ -27,6 +27,7 @@
                             <span uk-icon="icon: cloud-upload"></span>
                             <div class="uk-form-custom">
                                 <input type="file" multiple>
+                                <input type="hidden" id="image">
                                 <span class="uk-link">Выбрать файлы</span>
                             </div>
                         </div>
@@ -51,14 +52,16 @@
     var upload_url = "<?=$this->Url->build(['controller'=>'News','action'=>'upload'])?>";
     var csrfToken = <?= json_encode($this->request->getParam('_csrfToken')) ?>;
     var token = "<?= $token?>";
-    var tmp_root = '<?= $this->Url->assetUrl("/img/news/tmp/$token/")?>';
+    var tmp_root = '<?= $this->Url->assetUrl("/img/news/img/")?>';
     var file_remove = '<?= $this->Url->build(['controller'=>'News','action'=>'remove'])?>';
     var news_save_url = '<?= $this->Url->build(['controller'=>'News','action'=>'add'])?>';
+    var redirect = '<?= $this->Url->build(['controller'=>'News','action'=>'index']) ?>';
+    var upload_file_name = "";
 
     UIkit.upload('.js-upload', {
 
         url: upload_url,
-        multiple: true,
+        multiple: false,
 
         beforeSend: function (environment) {
             console.log('beforeSend', arguments);
@@ -117,7 +120,8 @@
                 "<div style='color:red; font-weight:bolder;cursor:pointer'" + "image=" + arguments[0].response + " onclick='deleteImage(this)'>" + "X</div>"+
                 "<img src='" + tmp_root + "small_" +file +"'>"+
             "</div>";
-            $('#upload_preview').append(html);
+            $('#image').val(file);
+            $('#upload_preview').html(html);
             //alert('Upload Completed');
         }
 
@@ -126,16 +130,18 @@
     $('#submit').click(function(){
         var form_data = $("#form").serializeArray();
         console.log(form_data);
+        var valid_data = 'title=' + form_data[0].value + '&description='+ form_data[2].value + '&image=' + $('#image').val();
         $.ajax({
             type: "POST",
             beforeSend: function(request) {
                 request.setRequestHeader("Token", token);
                 request.setRequestHeader('X-CSRF-Token',csrfToken);
             },
-            data : form_data,
+            data : valid_data,
             url: news_save_url,
             processData: false,
             success: function(msg) {
+                window.location.href= redirect;
             }
         });
 
@@ -157,7 +163,6 @@
                 $(element).parent().remove();
             }
         });
-        alert($(element).attr('image'));
     }
 
 </script>

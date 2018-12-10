@@ -111,29 +111,34 @@
             <li class="uk-parent uk-active">
                 <a href="products.html"><?=__('Каталог')?></a>
                 <ul class="uk-nav-sub">
-                    <li><a href="bean.html"><?=__('Бобовые культуры')?></a></li>
-                    <li><a href="dried_fruits.html"><?=__('Сухофрукты')?></a></li>
-                    <li><a href="nut.html"><?=__('Ореховые культуры')?></a></li>
-                    <li><a href="medherbs.html"><?=__('Лекарственные растания,плоды и ягоды')?></a></li>
-                    <li><a href="greens.html"><?=__('Свежие овощи и фрукты')?></a></li>
+                    <li>
+                        <a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'beans'])?>">
+                            <?=__('Бобовые культуры')?>
+                        </a>
+                    </li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'dryfruits'])?>"><?=__('Сухофрукты')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'nuts'])?>"><?=__('Ореховые культуры')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'medherbs'])?>"><?=__('Лекарственные растания,плоды и ягоды')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'greens'])?>"><?=__('Свежие овощи и фрукты')?></a></li>
                 </ul>
                 <hr>
                 <ul class="uk-nav-sub">
-                    <li><a href="desiccator.html"><?=__('Оборудование для производства сухофруктов')?></a></li>
-                    <li><a href="toys.html"><?=__('Мягкие игрушки')?></a></li>
-                    <li><a href="agroequipment.html"><?=__('Сельхоз техника')?></a></li>
-                    <li><a href="agroequipment.html"><?=__('Спецодежда')?></a></li>
+                    <li>
+                        <a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'desiccator'])?>"><?=__('Оборудование для производства сухофруктов')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'hugs'])?>"><?=__('Мягкие игрушки')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'agroequipment'])?>"><?=__('Сельхоз техника')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'agroequipment'])?>"><?=__('Спецодежда')?></a></li>
                 </ul>
                 <hr>
                 <ul class="uk-nav-sub">
-                    <li><a href="boiler.html"><?=__('Котлы "Termolux"')?></a></li>
-                    <li><a href="juicer.html"><?=__('Соковыжималки')?></a></li>
-                    <li><a href="agrobuild.html"><?=__('Услуги агростроительства')?></a></li>
-                    <li><a href="seedlings.html"><?=__('Рассады')?></a></li>
-                </ul>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'boiler'])?>"><?=__('Котлы "Termolux"')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'juicer'])?>"><?=__('Соковыжималки')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'agrobuild'])?>"><?=__('Услуги агростроительства')?></a></li>
+                    <li><a href="<?= $this->Url->build(['controller'=>'Catalog','action'=>'seedlings'])?>"><?=__('Рассады')?></a></li>
+</ul>
             </li>
-            <li class="uk-active"><a href="news.html"><?=__('Новости')?></a></li>
-            <li class="uk-active"><a href="contact.html"><?=__('Контакты')?></a></li>
+            <li class="uk-active"><a href="<?= $this->Url->build(['controller'=>'news','action'=>'index'])?>"><?=__('Новости')?></a></li>
+            <li class="uk-active"><a href="<?= $this->Url->build(['controller'=>'about','action'=>'contact'])?>"><?=__('Контакты')?></a></li>
         </ul>
     </div>
 </div>
