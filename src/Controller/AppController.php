@@ -47,11 +47,13 @@ class AppController extends Controller
         $this->loadComponent('Flash');
         
         $this->loadComponent('Auth', [
-            'authenticate' => [
-                'loginAction' => [
-                    'controller' => 'Users',
-                    'action' => 'login'
-                ],
+            'loginAction' => [
+                'controller' => 'Users',
+                'action' => 'login'
+            ],
+			'logoutRedirect' => [
+                'controller' => 'Pages',
+                'action' => 'display'
             ]
         ]);
 
@@ -60,5 +62,13 @@ class AppController extends Controller
          * see https://book.cakephp.org/3.0/en/controllers/components/security.html
          */
         //$this->loadComponent('Security');
+
+        
+    }
+    
+    public function beforeFilter(Event $event)
+    {
+        parent::beforeFilter($event);
+        $this->Auth->allow(['index', 'view', 'display']);
     }
 }

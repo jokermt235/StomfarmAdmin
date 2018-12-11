@@ -1,6 +1,7 @@
 <?php
 namespace App\Controller;
 
+use Cake\Core\Configure;
 use App\Controller\AppController;
 use Cake\Filesystem\Folder;
 use Cake\Filesystem\File;
@@ -18,6 +19,8 @@ class NewsController extends AppController
     {
         //$this->getEventManager()->off($this->Csrf);
         //$this->eventManager()->off($this->Csrf);
+        parent::beforeFilter($event);
+        $this->Auth->allow(['index', 'view']);
     }
     public $components = ['Image','Translit'];
 
@@ -28,8 +31,13 @@ class NewsController extends AppController
      */
     public function index()
     {
-        $news = $this->paginate($this->News);
+        $news = $this->paginate($this->News->find()->order(['created' => 'DESC']));
 
+        $this->set(compact('news'));
+    }
+
+    public function news(){
+        $news = $this->paginate($this->News->find()->order(['created' => 'DESC']));
         $this->set(compact('news'));
     }
 
@@ -120,12 +128,15 @@ class NewsController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $news = $this->News->get($id);
         if ($this->News->delete($news)) {
-            $this->Flash->success(__('The news has been deleted.'));
+            $this->remove($news->image);
+            //$this->Flash->success(__('The news has been deleted.'));
+            return $this->response->withStatus(200);
         } else {
-            $this->Flash->error(__('The news could not be deleted. Please, try again.'));
+            //$this->Flash->error(__('The news could not be deleted. Please, try again.'));
+            return $this->response->withStatus(500);
         }
 
-        return $this->redirect(['action' => 'index']);
+        //return $this->redirect(['action' => 'index']);
     }
 
     public function upload()
@@ -133,7 +144,8 @@ class NewsController extends AppController
         $this->viewBuilder()->setLayout('ajax');
         $token = $this->request->header('Token');
         $files = $this->request->data['files'];
-        $tmp_dir = "/var/www/html/falconB/webroot/img/news/img/";
+        $tmp_dir = //"/var/www/html/falconB/webroot/img/news/img/";
+            Configure::read('Falcon.Images.upload_path');
         if(!empty($files)){
             $data = [];
             $data['upload_image'] = $files[0];
@@ -145,8 +157,10 @@ class NewsController extends AppController
     public function remove($file_name)
     {
         $token = $this->request->header('Token');
-        $tmp_file = "/var/www/html/falconB/webroot/img/news/img/$file_name";
-        $tmp_file_small = "/var/www/html/falconB/webroot/img/news/img/small_$file_name";
+        $tmp_file = //"/var/www/html/falconB/webroot/img/news/img/$file_name";
+            Configure::read('Falcon.Images.upload_path').$file_name;
+        $tmp_file_small = //"/var/www/html/falconB/webroot/img/news/img/small_$file_name";
+            Configure::read('Falcon.Images.upload_path').'small_'.$file_name;
         unlink($tmp_file_small);
         unlink($tmp_file);
     }

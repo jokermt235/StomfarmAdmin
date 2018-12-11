@@ -40,6 +40,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->script('uikit.min')?>
     <?= $this->Html->script('uikit-icons.min')?>
     <?= $this->Html->script('jquery.fancybox.min')?>
+    <script>
+        var csrfToken = <?= json_encode($this->request->getParam('_csrfToken')) ?>;
+    </script>
 </head>
     <body style="background-color: #eeeeee" >
     <?= $this->fetch('content')?>

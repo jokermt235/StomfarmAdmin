@@ -386,7 +386,7 @@ return [
     'Falcon' =>[
         'Images'=>[
             'small_image_size' =>['width'=>230,'height'=>230],
-            'upload_path' => '/var/www/html/falconB/img/news/',
+            'upload_path' => '/var/www/html/falconB/webroot/img/news/img/',
             'public_path' => '/'
         ]
     ]

@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\Event\Event;
 /**
  * About Controller
  *
@@ -11,6 +11,17 @@ use App\Controller\AppController;
  */
 class AboutController extends AppController
 {
+    public function beforeFilter(Event $event)
+    {
+        //$this->getEventManager()->off($this->Csrf);
+        //$this->eventManager()->off($this->Csrf);
+        parent::beforeFilter($event);
+        $this->Auth->allow(
+            [
+                'partners','reccomendation','invest','contact'
+            ]
+        );
+    }
 
     /**
      * Index method

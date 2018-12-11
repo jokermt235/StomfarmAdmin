@@ -14,7 +14,7 @@
                 <a href="#">Admin</a>
                 <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="#">Logout</a></li>
+                        <li><a href="<?= $this->Url->build(['controller'=>'Users','action'=>'logout'])?>">Logout</a></li>
                     </ul>
                 </div>
             </li>

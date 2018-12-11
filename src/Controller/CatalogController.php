@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\Event\Event;
 /**
  * Catalog Controller
  *
@@ -11,6 +11,19 @@ use App\Controller\AppController;
  */
 class CatalogController extends AppController
 {
+    public function beforeFilter(Event $event)
+    {
+        //$this->getEventManager()->off($this->Csrf);
+        //$this->eventManager()->off($this->Csrf);
+        parent::beforeFilter($event);
+        $this->Auth->allow(
+            [
+                'commercial','beans','dryfruits','nuts','medherbs','greens','desiccator','hugs','agroequipment',
+                'boiler','juicer','agrobuild','seedlings'
+            ]
+        );
+    }
+
     public function commercial()
     {
     }
