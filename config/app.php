@@ -255,9 +255,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'root',
-            'password' => 'jokix2357',
-            'database' => 'falkonkg',
+            'username' => 'username',
+            'password' => 'password',
+            'database' => 'database',
             /*
              * You do not need to set this flag to use full utf-8 encoding (internal default since CakePHP 3.6).
              */
@@ -383,12 +383,5 @@ return [
     'Session' => [
         'defaults' => 'php',
     ],
-    'Falcon' =>[
-        'Images'=>[
-            'small_image_size' =>['width'=>230,'height'=>230],
-            'upload_path' => '/var/www/html/falconB/webroot/img/news/img/',
-            'public_path' => '/'
-        ]
-    ]
 
 ];
