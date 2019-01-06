@@ -1,12 +1,14 @@
-<?= $this->element('top_menu')?>
 <div class="uk-panel">
-    <div class="uk-panel" style="background-color: #009246;padding: 10px 0 10px 70px;">
+    <div class="uk-panel" style="background-color: #0f7ae5;padding: 10px 0 10px 70px;">
         <span class="uk-heading-primary uk-light">Вход</span>
     </div>
 </div>
-<div class="uk-panel uk-padding-large uk-margin-top uk-margin-large-bottom">
+<div class="uk-panel uk-padding uk-margin-top uk-margin-large-bottom">
     <div class="uk-flex uk-height-medium uk-margin uk-text-center">
-        <div class="uk-margin-auto uk-margin-auto-vertical uk-width-1-3@s uk-card uk-card-default uk-card-body">
+        <div class="uk-margin-auto uk-margin-auto-vertical uk-width-1-2@s uk-card uk-card-default uk-card-body">
+            <div class="uk-card-media-top">
+                <?= $this->Html->image('stomfarm_logo_256x256.png',['width'=>160])?>
+            </div>
             <form class="uk-form-horizontal">
                 <div class="uk-margin">
                     <label class="uk-form-label" for="username">Логин : </label>
@@ -27,7 +29,7 @@
         </div>
     </div>
 </div>
-<?= $this->element('footer')?>
+
 <script>
     var loginUrl = "<?= $this->Url->build(['controller'=>'Users','action'=>'login'])?>";
     var redirectUrl = "<?= $this->Url->build(['controller'=>'Admin','action'=>'index'])?>";
@@ -43,7 +45,7 @@
             processData: false,
             success: function(msg) {
                 console.log(msg);
-                window.location.href= redirectUrl;
+                window.location.href = redirectUrl;
             }
         });
     });

@@ -25,7 +25,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <!--<?= $this->Html->meta('icon') ?>-->
     <?= $this->Html->css('uikit.css')?>
 	<?= $this->Html->css('style')?>
-    <!--<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway|Shrikhand|Montserrat+Alternates:600i|Pattaya|Audiowide|Rubik:400i|" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway|Shrikhand|Montserrat+Alternates:600i|Pattaya|Audiowide|Rubik:400i|" rel="stylesheet">
     <?= $this->Html->script('jquery-3.2.1.min')?>
     <?= $this->Html->script('uikit.min')?>
     <?= $this->Html->script('uikit-icons.min')?>
@@ -34,17 +34,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </script>
 </head>
     <body>
-        <?= $this->element('admin_menu')?>
-        <?= $this->element('left_menu')?>
-        <?php $controller = $this->request->getParam('controller')?>
-        <?php $action = $this->request->getParam('action')?>
-        <div class="uk-container uk-container-xsmall uk-margin-top tm-main">
-            <ul class="uk-breadcrumb">
-                <li><a href="<?=$this->Url->build(['controller'=>$controller, 'action'=>'index'])?>"><?=$controller?></a></li>
-                <li><a href="<?=$this->Url->build(['controller'=>$controller, 'action'=>'index'])?>"><?=$action?></a></li>
-            </ul>
-            <hr>
-            <?= $this->fetch('content')?>
-        </div>
+    <?= $this->fetch('content')?>
     </body>
 </html>

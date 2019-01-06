@@ -17,7 +17,8 @@ class UsersController extends AppController
 
     public function login()
     {
-        $password = "falOne1Two2";
+        $this->viewBuilder()->setLayout('login');
+        //$password = "falOne1Two2";
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
             if ($user) {
@@ -30,8 +31,18 @@ class UsersController extends AppController
         }
     }
 
-    public function logout() {
+    public function logout()
+    {
         return $this->redirect($this->Auth->logout());
     }
 
+    public function index()
+    {
+        $users = $this->paginate($this->Users);
+        $this->set(compact('users'));
+    }
+
+    public function add()
+    {
+    }
 }    
