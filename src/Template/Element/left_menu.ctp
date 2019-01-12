@@ -16,6 +16,17 @@
         <li>
             <div uk-grid class="uk-margin-small-top">
                 <div class="uk-width-expand">
+                    <a href="<?= $this->Url->build(['controller'=>'Partners','action'=>'index'])?>">
+                        Контрагенты</a>
+                </div>
+                <div>
+                    <a href="<?=$this->Url->build(['controller'=>'Partners','action'=>'add'])?>"><span class="uk-label"> + add</span></a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div uk-grid class="uk-margin-small-top">
+                <div class="uk-width-expand">
                     <a href="<?= $this->Url->build(['controller'=>'Storages','action'=>'index'])?>">
                         Склады
                     </a>
@@ -34,6 +45,18 @@
                 </div>
                 <div>
                     <a href="<?=$this->Url->build(['controller'=>'Items','action'=>'add'])?>"><span class="uk-label"> + add</span></a>
+                </div>
+            </div>       
+        </li>
+        <li>
+            <div uk-grid class="uk-margin-small-top">
+                <div class="uk-width-expand">
+                    <a href="<?= $this->Url->build(['controller'=>'Documents','action'=>'index'])?>">
+                        Документы
+                    </a>
+                </div>
+                <div>
+                    <a href="<?=$this->Url->build(['controller'=>'Documents','action'=>'add'])?>"><span class="uk-label"> + add</span></a>
                 </div>
             </div>       
         </li>
