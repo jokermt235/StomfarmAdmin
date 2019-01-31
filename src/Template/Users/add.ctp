@@ -1,4 +1,4 @@
-<form class="uk-form-stacked">
+<form class="uk-form-stacked" ng-controller="addFormController">
     <div class="uk-margin">
         <label class="uk-form-label" for="fio">Ф.И.О</label>
         <div class="uk-form-controls">
@@ -9,6 +9,18 @@
         <label class="uk-form-label" for="username">Имя пользователя</label>
         <div class="uk-form-controls">
             <input name="username" class="uk-input" id="username" type="text" placeholder="Логин">
+        </div>
+    </div>
+    <div class="uk-margin">
+        <label class="uk-form-label" for="password">Пароль</label>
+        <div class="uk-form-controls">
+            <input name="password" class="uk-input" id="password" type="text" placeholder="пароль">
+        </div>
+    </div>
+    <div class="uk-margin">
+        <label class="uk-form-label" for="password_repeat">Повтор пароля</label>
+        <div class="uk-form-controls">
+            <input name="password_repeat" class="uk-input" id="password_repeat" type="text" placeholder="Повтор пароля">
         </div>
     </div>
     <div class="uk-margin">
@@ -26,3 +38,5 @@
         </div>
     </div>
 </form>
+<script>
+</script>

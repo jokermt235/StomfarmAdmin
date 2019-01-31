@@ -3,11 +3,14 @@
         <span class="uk-heading-primary uk-light">Вход</span>
     </div>
 </div>
+
 <div class="uk-panel uk-padding uk-margin-top uk-margin-large-bottom">
-    <div class="uk-flex uk-height-medium uk-margin uk-text-center">
+    <div class="uk-flex uk-height-medium uk-margin uk-text-center"> 
         <div class="uk-margin-auto uk-margin-auto-vertical uk-width-1-2@s uk-card uk-card-default uk-card-body">
             <div class="uk-card-media-top">
-                <?= $this->Html->image('stomfarm_logo_256x256.png',['width'=>160])?>
+                <?= $this->Html->image('stomfarm_logo_256x256.png',['width'=>120])?>
+            </div> 
+            <div class="result">
             </div>
             <form class="uk-form-horizontal">
                 <div class="uk-margin">
@@ -46,6 +49,12 @@
             success: function(msg) {
                 console.log(msg);
                 window.location.href = redirectUrl;
+            },
+            error: function(){
+                $('.result').html('<div class="uk-alert-danger" uk-alert>'+
+                    '<a class="uk-alert-close" uk-close></a>'+
+                    '<p>Неправильное имя пользователя или пароль</p>'+
+                '</div>');
             }
         });
     });
