@@ -16028,3 +16028,212 @@ Stack Trace:
 #29 {main}
 
 
+2019-01-12 18:41:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Api could not be found.
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /api
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2019-01-12 20:13:31 Error: [Cake\Http\Exception\UnauthorizedException] Unauthorized
+Request URL: /pages
+Referer URL: http://localhost/StomfarmService/admin
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(387): Cake\Auth\BasicAuthenticate->unauthenticated(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(316): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\PagesController))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(276): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventManager.php(353): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(114): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Controller.php(675): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /var/www/html/StomfarmService/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#24 {main}
+
+
+2019-01-12 20:13:38 Error: [Cake\Http\Exception\UnauthorizedException] Unauthorized
+Request URL: /
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(387): Cake\Auth\BasicAuthenticate->unauthenticated(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(316): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\PagesController))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(276): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventManager.php(353): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(114): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Controller.php(675): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /var/www/html/StomfarmService/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#24 {main}
+
+
+2019-01-12 20:13:46 Error: [Cake\Http\Exception\UnauthorizedException] Unauthorized
+Request URL: /
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(387): Cake\Auth\BasicAuthenticate->unauthenticated(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(316): Cake\Controller\Component\AuthComponent->_unauthenticated(Object(App\Controller\PagesController))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(276): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventManager.php(353): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(114): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Controller.php(675): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 /var/www/html/StomfarmService/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#24 {main}
+
+
+2019-01-14 17:03:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Orders could not be found.
+Exception Attributes: array (
+  'class' => 'Orders',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /orders/add
+Referer URL: http://localhost/StomfarmService/documents
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2019-01-14 17:03:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Orders could not be found.
+Exception Attributes: array (
+  'class' => 'Orders',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /orders
+Referer URL: http://localhost/StomfarmService/documents
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2019-01-14 17:12:56 Error: [Cake\View\Exception\MissingTemplateException] Template file "Orders/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Orders/index.ctp',
+)
+Request URL: /orders
+Referer URL: http://localhost/StomfarmService/orders/add
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName('Orders/index')
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Controller/Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\OrdersController))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /var/www/html/StomfarmService/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+
+
