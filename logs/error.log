@@ -16141,3 +16141,746 @@ Stack Trace:
 #33 {main}
 
 
+2019-01-31 07:48:46 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 07:48:47 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 07:48:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-01-31 08:13:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:04 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:04 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:09 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:11 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:12 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:13 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:13 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:14:14 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-01-31 08:24:36 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:01:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:01:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:01:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:01:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-02-01 09:01:21 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:05:38 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:05:38 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:05:38 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:05:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-02-01 09:05:42 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:05:42 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:05:46 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 09:05:49 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 10:48:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 10:48:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 10:48:55 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 10:48:55 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 10:48:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fusers%2Fadd
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-02-01 10:48:55 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 10:48:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-02-01 10:51:33 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-01 10:51:33 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-06 04:29:02 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-06 04:29:02 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-07 12:09:13 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-07 12:09:13 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-07 12:09:13 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-07 12:09:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fadmin
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-02-08 10:16:44 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:44 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:46 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:46 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:47 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:48 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:49 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:49 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-08 10:16:50 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:44:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:44:55 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:44:55 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:44:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-02-22 18:45:04 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:04 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:06 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:07 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:08 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:10 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:10 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:12 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:15 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:19 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:20 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:21 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:24 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:27 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:30 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:32 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:34 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:35 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:36 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:37 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:40 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:45:43 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:46:02 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:46:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:46:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:46:05 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:46:06 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-02-22 18:46:14 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:17:44 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:17:44 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:17:44 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:17:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-02 18:17:58 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:17:58 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:18:00 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:47:05 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:47:05 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:47:06 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:47:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fusers
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-02 18:57:07 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:57:07 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:57:08 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:57:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-02 18:57:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:57:19 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:57:23 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:57:25 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:58:08 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-02 18:58:11 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 17:56:53 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 17:56:53 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 17:56:53 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 17:56:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fadmin
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-03 18:01:52 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:01:52 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:01:58 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:01:59 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:02:04 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:02:07 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:02:08 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:02:11 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-03 18:02:12 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fusers%2Fadd
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-04 16:53:29 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:30 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:32 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:33 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 16:53:35 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 19:07:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 19:07:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 19:07:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 19:07:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fusers
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-04 19:07:49 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-04 19:07:50 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 17:20:25 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 17:20:25 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 17:27:17 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 17:41:35 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 17:42:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 17:47:13 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:08:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:08:52 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:09:02 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:16:23 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:16:32 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:33:29 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:34:02 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:34:12 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:35:50 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:37:42 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:40:32 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:42:27 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:44:38 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:44:45 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:44:50 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 18:45:16 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:00:28 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:00:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:03:38 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:06:07 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:08:05 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:08:17 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:09:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:12:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-05 19:12:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Items.json could not be found.
+Exception Attributes: array (
+  'class' => 'Items.json',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /items.json
+Referer URL: http://test.exesoft.org/StomfarmService/admin
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2019-03-06 18:00:26 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:00:26 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:00:26 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:00:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fadmin
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-06 18:00:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:00:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:00:45 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:10:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:10:58 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:12:09 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:12:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:17:04 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:17:53 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:18:07 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:18:11 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:18:13 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:19:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:19:27 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:20:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:21:33 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:23:58 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:24:03 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:31:21 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:41:30 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:43:21 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:43:28 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:44:02 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:44:48 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:45:59 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:46:21 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:50:52 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:51:33 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:51:58 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 18:59:54 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:00:41 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:01:30 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:02:14 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:05:46 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:36:30 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:36:30 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:36:30 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:36:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/stomfarm_logo_256x256.png
+Referer URL: http://test.exesoft.org/StomfarmService/users/login?redirect=%2Fusers%2Fadd
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-06 19:36:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:36:39 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:36:42 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:36:44 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:38:50 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:39:46 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:43:25 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:44:01 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:44:14 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:46:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:52:18 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:57:32 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:58:21 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 19:59:47 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 20:00:57 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 20:01:06 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 20:01:06 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::add.json() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add.json',
+  'prefix' => '',
+  'plugin' => false,
+)
+Request URL: /users/add.json
+Referer URL: http://test.exesoft.org/StomfarmService/users/add
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-06 20:04:09 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 20:04:10 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 20:04:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/componets/config.js
+Referer URL: http://test.exesoft.org/StomfarmService/users/add
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-06 20:04:11 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 20:04:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/componets/config.js
+Referer URL: http://test.exesoft.org/StomfarmService/users/add
+Stack Trace:
+#0 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /var/www/html/StomfarmService/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /var/www/html/StomfarmService/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2019-03-06 20:04:32 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-06 20:04:38 Warning: DebugKit is disabling itself as your host `test.exesoft.org` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.

@@ -18,7 +18,6 @@ class UsersController extends AppController
     public function login()
     {
         $this->viewBuilder()->setLayout('login');
-        //$password = "falOne1Two2";
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
             if ($user) {
@@ -45,7 +44,14 @@ class UsersController extends AppController
     public function add()
     {
         if ($this->request->is('post')) {
+            $data  = $this->request->getData();
+            $this->set('_serialize', ['data']);
             return  $this->response->withStatus(200);
         }
+    }
+
+    protected function _setPassword($password)
+    {
+        return (new DefaultPasswordHasher)->hash($password);
     }
 }    

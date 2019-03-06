@@ -14,13 +14,6 @@ class UsersTable extends Table
 
         if ($entity->isNew()) {
             $hasher = new DefaultPasswordHasher();
-
-            // Генерируем 'токен' API
-            $entity->api_key_plain = Security::hash(Security::randomBytes(32), 'sha256', false);
-
-            // Хешируем токен с помощью Bcrypt, чтобы BasicAuthenticate
-            // мог его проверить при входе.
-            $entity->api_key = $hasher->hash($entity->api_key_plain);
         }
         return true;
     }

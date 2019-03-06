@@ -33,10 +33,11 @@
     </div>
     <div class="uk-margin">
         <label class="uk-form-label"></label>
-        <div class="uk-form-controls">
-            <a class="uk-button uk-button-primary">Сохранить</a>
+        <div class="uk-form-controls" id="submit_button_container">
         </div>
     </div>
 </form>
+<?= $this->Html->script('components/button.submit.js')?>
 <script>
+    ReactDOM.render(e(ButtonSubmit), document.querySelector('#submit_button_container'));
 </script>

@@ -255,8 +255,8 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'root',
-            'password' => 'jokix2357',
+            'username' => 'stomfarm',
+            'password' => 'Hr1Brb2a',
             'database' => 'stomdb',
             /*
              * You do not need to set this flag to use full utf-8 encoding (internal default since CakePHP 3.6).

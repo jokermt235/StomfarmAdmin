@@ -29,9 +29,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->script('jquery-3.2.1.min')?>
     <?= $this->Html->script('uikit.min')?>
     <?= $this->Html->script('uikit-icons.min')?>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
     <script>
-        var csrfToken = <?= json_encode($this->request->getParam('_csrfToken')) ?>;
+        const csrfToken = token = <?= json_encode($this->request->getParam('_csrfToken')) ?>;   
     </script>
+    <?= $this->Html->script('components/config.js')?>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <?= $this->html->script('components/instance.js')?>
 </head>
     <body>
         <?= $this->element('admin_menu')?>
