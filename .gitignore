@@ -6,7 +6,7 @@
 /tmp/*
 #/vendor/*
 /webroot/img/*
-/webroot/components/*
+/webroot/components/
 
 # OS generated files #
 ######################
