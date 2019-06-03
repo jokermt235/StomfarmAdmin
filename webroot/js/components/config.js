@@ -1,2 +1,4 @@
-const root  = "http://test.exesoft.org/StomfarmService/";
-const root_api = "est.exesoft.org/RestService/api/";
+const root  = "";
+const root_api = "http://test.exesoft.org/RestService/api/";
+const error_400 = '400';
+const error_500 = '500';

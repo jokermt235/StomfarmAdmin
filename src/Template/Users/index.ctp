@@ -1,35 +1,35 @@
-<table class="uk-table uk-table-small uk-table-divider"> 
-    <thead> 
-        <tr> 
-            <th>Ф.И.О</th> 
-            <th>Имя пользователя</th> 
-            <th>Телефон</th> 
-            <th>Долг</th> 
-            <th>Статус</th> 
-            <th>Операции</th> 
-            <th></th>
-         </tr> 
-    </thead> 
-    <tbody> 
-        <?php foreach($users as $user):?>
-        <tr>
-            <td><?=$user->fio?></td>
-            <td><?=$user->username?></td>
-            <td></td>
-            <td></td>
-            <td></td>
-			<td> 
-            	<a href="<?= $this->Url->build(['controller'=>'Users','action'=>'edit',$user->id])?>"> 
-                	<span uk-icon="icon: pencil"></span> Изменить 
-            	</a> 
-         	</td> 
-         	<td> 
-            	<a onclick='deleteRecord("<?= $this->Url->build(['controller'=>'Users','action'=>'delete',$user->id])?>")'> 
-                	<span uk-icon="icon: close"></span> Удалить 
-            	</a> 
-         	</td>
-        </tr>
-        <?php endforeach?>
-    </tbody>
-</table>
+<div id="user_list_container">
+</div>
+<?= $this->Html->script('components/table.action.js')?>
+<script>
+    var url = "<?=$this->Url->build(['controller'=>'Users','action'=>'index'])?>";
+    var deleteAction = "<?=$this->Url->build(['controller'=>'Users','action'=>'delete'])?>";
+    var deleteRedirect = "<?=$this->Url->build(['controller'=>'Users','action'=>'index'])?>";
+    var editAction = "<?=$this->Url->build(['controller'=>'Users','action'=>'edit'])?>";
+    var editRedirect = "<?=$this->Url->build(['controller'=>'Users','action'=>'index'])?>";
+    instance.get(url + '.json').then((response)=>{
+        if(response.data.users){
+            ReactDOM.render(React.createElement(TableAction,
+        {   data : response.data.users,
+            actions:
+            {
+                edit : {
+                    title :"Изменить",
+                    url : editAction,
+                    redirect : editRedirect
+                },
+                delete : {
+                    title : "Удалить",
+                    url : deleteAction,
+                    redirect : deleteRedirect
+                }
+            }
+        }), 
+            document.querySelector('#user_list_container'));
+        } 
         
+    }).catch(function(error){
+        //window.location.pathname = error_500;
+        console.log(error);
+    }); 
+</script>

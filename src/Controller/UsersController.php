@@ -4,9 +4,16 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Cake\Auth\DefaultPasswordHasher;
 use Cake\Event\Event;
+use Cake\Log\Log;
+use Cake\ORM\TableRegistry;
 
 class UsersController extends AppController
 {
+    public function initialize()
+    {
+        parent::initialize();
+        $this->loadComponent('RequestHandler');
+    }
     public function beforeFilter(Event $event)
     {
         //$this->getEventManager()->off($this->Csrf);
@@ -39,15 +46,62 @@ class UsersController extends AppController
     {
         $users = $this->paginate($this->Users);
         $this->set(compact('users'));
+        $this->set('_serialize',['users']);
+        /*return $this->response->withType('application/json')
+                      ->withStringBody(json_encode($users));*/
+    }
+
+    public function edit($id = null)
+    {
+        $user  = $this->Users->get($id);
+        if($this->request->is('post')){
+            $data  = $this->request->getData();
+            $this->Users->patcthEntity($user,$data);
+            if($this->Users->save($user)){
+                return 
+                    $this->response->withType('application/json')
+                    ->withStringBody(json_encode(['status'=>1]));
+            }else{
+                return 
+                    $this->response->withType('application/json')
+                    ->withStringBody(json_encode(['status'=>0]));
+            }
+        }
+        $this->set(compact('user'));
+        $this->set('_serialize',['user']);
     }
 
     public function add()
     {
+        $users = TableRegistry::get('Users');
+        $user = $users->newEntity();
         if ($this->request->is('post')) {
             $data  = $this->request->getData();
-            $this->set('_serialize', ['data']);
-            return  $this->response->withStatus(200);
+            $user = $users->patchEntity($user, $data);
+            if($users->save($user)){
+                return 
+                $this->response->withType('application/json')
+                    ->withStringBody(json_encode(['status'=>1]));
+            }
+            return 
+            $this->response->withType('application/json')
+                ->withStringBody(json_encode(['status'=>0]));   
         }
+    }
+
+    public function delete($id=null){
+        if($this->request->is('post')){
+            $user = $this->Users->get($id);
+            if($this->Users->delete($user)){
+                return 
+                    $this->response->withType('application/json')
+                    ->withStringBody(json_encode(['status'=>1]));
+            }
+        }
+
+        return 
+            $this->response->withType('application/json')
+                ->withStringBody(json_encode(['status'=>0]));
     }
 
     protected function _setPassword($password)

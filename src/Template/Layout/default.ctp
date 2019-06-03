@@ -44,7 +44,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->element('left_menu')?>
         <?php $controller = $this->request->getParam('controller')?>
         <?php $action = $this->request->getParam('action')?>
-        <div class="uk-container uk-container-xsmall uk-margin-top tm-main">
+        <div class="uk-container uk-container-small uk-margin-top tm-main">
             <ul class="uk-breadcrumb">
                 <li><a href="<?=$this->Url->build(['controller'=>$controller, 'action'=>'index'])?>"><?=$controller?></a></li>
                 <li><a href="<?=$this->Url->build(['controller'=>$controller, 'action'=>'index'])?>"><?=$action?></a></li>

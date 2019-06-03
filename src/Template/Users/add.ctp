@@ -1,4 +1,4 @@
-<form class="uk-form-stacked" ng-controller="addFormController">
+<form class="uk-form-stacked" redirect="<?=$this->Url->build(['controller'=>'Users','action'=>'index'])?>">
     <div class="uk-margin">
         <label class="uk-form-label" for="fio">Ф.И.О</label>
         <div class="uk-form-controls">

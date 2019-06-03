@@ -40,7 +40,7 @@
             <div uk-grid class="uk-margin-small-top">
                 <div class="uk-width-expand">
                     <a href="<?= $this->Url->build(['controller'=>'Items','action'=>'index'])?>">
-                        Позиции
+                        Номенкулатура
                     </a>
                 </div>
                 <div>
@@ -63,12 +63,27 @@
         <li>
             <div uk-grid class="uk-margin-small-top">
                 <div class="uk-width-expand">
+                    <a href="<?= $this->Url->build(['controller'=>'Sales','action'=>'index'])?>">
+                        Продажи
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div uk-grid class="uk-margin-small-top">
+                <div class="uk-width-expand">
+                    <a href="<?= $this->Url->build(['controller'=>'Debts','action'=>'index'])?>">
+                        Долги
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div uk-grid class="uk-margin-small-top">
+                <div class="uk-width-expand">
                     <a href="<?= $this->Url->build(['controller'=>'Orders','action'=>'index'])?>">
                         Заказы
                     </a>
-                </div>
-                <div>
-                    <a href="<?=$this->Url->build(['controller'=>'Orders','action'=>'add'])?>"><span class="uk-label"> + add</span></a>
                 </div>
             </div>       
         </li>
