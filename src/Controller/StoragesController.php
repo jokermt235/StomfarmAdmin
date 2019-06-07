@@ -47,6 +47,6 @@ class StoragesController extends AppController
                 ->withStringBody(json_encode(['status'=>0]));   
         }
 
-        $this->set('storage', $this->Storages->get('id'));
+        $this->set('storage', $this->Storages->get($id));
     }
 }

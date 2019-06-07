@@ -2,7 +2,8 @@
     <div class="uk-margin">
         <label class="uk-form-label" for="name">Название(Имя)</label>
         <div class="uk-form-controls">
-             <input name="name" class="uk-input" id="name" type="text" placeholder="Название(Имя)">
+             <input name="name" class="uk-input" id="name" type="text" placeholder="Название(Имя)"
+                value=<?=$storage['name']?>>
         </div>
     </div>
     <div class="uk-margin">
@@ -27,6 +28,7 @@
 <?= $this->Html->script('components/select.single.js')?>
 <script>
     var url = "<?=$this->Url->build(['controller'=>'Users','action'=>'index'])?>";
+    var selected_user = "<?=$storage->user_id?>";
     ReactDOM.render(e(ButtonSubmit), document.querySelector('#submit_button_container'));
     instance.get(url + '.json').then((response)=>{
         if(response.data.users){
@@ -41,7 +43,7 @@
                 {
                     data :{
                         name : 'user_id',
-                        selected : "",
+                        selected : selected_user,
                         empty_value: true,
                         options
                     }
