@@ -256,7 +256,7 @@ return [
              */
             //'port' => 'non_standard_port_number',
             'username' => 'stomfarm',
-            'password' => 'Hr1Brb2a',
+            'password' => 'StomPass4u_',
             'database' => 'stomdb',
             /*
              * You do not need to set this flag to use full utf-8 encoding (internal default since CakePHP 3.6).
@@ -384,4 +384,7 @@ return [
         'defaults' => 'php',
     ],
 
+    'OneC'=>[
+        'api_url'=>''
+    ],
 ];
