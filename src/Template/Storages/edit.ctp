@@ -2,6 +2,9 @@
     <div class="uk-margin">
         <label class="uk-form-label" for="name">Название(Имя)</label>
         <div class="uk-form-controls">
+            <div class="uk-hidden">
+                <input type="text" name="id" value=<?=$storage['id']?>>
+            </div>
              <input name="name" class="uk-input" id="name" type="text" placeholder="Название(Имя)"
                 value=<?=$storage['name']?>>
         </div>
