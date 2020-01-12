@@ -9,9 +9,9 @@ class SalesController extends AppController
 
     public function index($partner_id=null)
     {
-        $sales = $this->paginate($this->Sales);
+        $sales = $this->paginate($this->Sales->find()->order(['id'=>'DESC']));
         if(!empty($partner_id)){
-            $sales = $this->paginate($this->Sales->find()->where(['partner_id'=>$partner_id]));
+            $sales = $this->paginate($this->Sales->find()->where(['partner_id'=>$partner_id])->order(['id'=>'DESC']));
         }
         $this->set(compact('sales'));
         $this->set('_serialize',['sales']);

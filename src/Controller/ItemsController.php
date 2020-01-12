@@ -9,9 +9,11 @@ class ItemsController extends AppController
 
     public function index()
     {
-        $items = $this->paginate($this->Items);
+        $config = [];
+        $items = $this->paginate($this->Items->find()->order(['id'=>'DESC']),$config);
         $this->set(compact('items'));
-        $this->set('_serialize',['items']);
+        $this->set('params',$config);
+        $this->set('_serialize',['items','params']);
     }
 
     public function add()

@@ -10,6 +10,7 @@
     var viewAction = "<?=$this->Url->build(['controller'=>'Items','action'=>'view'])?>";
     instance.get(url + '.json').then((response)=>{
         if(response.data.items.length != 0){
+            console.log(response.data);
             ReactDOM.render(React.createElement(TableAction,
             {   data : response.data.items,
                 actions:

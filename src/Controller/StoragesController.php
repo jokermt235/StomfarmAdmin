@@ -9,7 +9,7 @@ class StoragesController extends AppController
 
     public function index()
     {
-        $storages = $this->paginate($this->Storages);
+        $storages  = $this->Storages->find();
         $this->set(compact('storages'));
         $this->set('_serialize',['storages']);
     }

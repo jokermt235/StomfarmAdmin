@@ -9,9 +9,9 @@ class DebtsController extends AppController
 
     public function index($partner_id=null)
     {
-        $debts = $this->paginate($this->Debts);
+        $debts = $this->paginate($this->Debts->find()->order(['id'=>'DESC']));
         if(!empty($partner_id)){
-            $debts = $this->paginate($this->Debts->find()->where(['partner_id'=>$partner_id]));
+            $debts = $this->paginate($this->Debts->find()->where(['partner_id'=>$partner_id])->order(['id'=>'DESC']));
         }
         $this->set(compact('debts'));
         $this->set('_serialize',['debts']);
