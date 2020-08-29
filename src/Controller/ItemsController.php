@@ -10,6 +10,9 @@ class ItemsController extends AppController
     public function index()
     {
         $config = [];
+        if(!empty($this->request->getQuery())){
+            $config = $this->request->getQuery();
+        }
         $items = $this->paginate($this->Items->find()->order(['id'=>'DESC']),$config);
         $this->set(compact('items'));
         $this->set('params',$config);

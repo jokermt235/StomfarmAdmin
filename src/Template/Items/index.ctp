@@ -1,5 +1,7 @@
 <div id="item_list_container" class="uk-overflow-auto">
 </div>
+<div id="paginator">
+</div>
 <?= $this->Html->script('components/table.action.js')?>
 <script>
     var url = "<?=$this->Url->build(['controller'=>'Items','action'=>'index'])?>";
