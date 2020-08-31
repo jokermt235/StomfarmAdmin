@@ -53,11 +53,12 @@ class UsersController extends AppController
 
     public function edit($id = null)
     {
+        $users = TableRegistry::get('Users');
         $user  = $this->Users->get($id);
         if($this->request->is('post')){
             $data  = $this->request->getData();
-            $this->Users->patcthEntity($user,$data);
-            if($this->Users->save($user)){
+            $users->patcthEntity($user,$data);
+            if($users->save($user)){
                 return 
                     $this->response->withType('application/json')
                     ->withStringBody(json_encode(['status'=>1]));
