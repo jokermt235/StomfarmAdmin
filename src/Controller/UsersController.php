@@ -57,7 +57,7 @@ class UsersController extends AppController
         $user  = $this->Users->get($id);
         if($this->request->is('post')){
             $data  = $this->request->getData();
-            $users->patcthEntity($user,$data);
+            $users->patchEntity($user,$data);
             if($users->save($user)){
                 return 
                     $this->response->withType('application/json')
