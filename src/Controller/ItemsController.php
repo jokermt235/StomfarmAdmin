@@ -13,7 +13,7 @@ class ItemsController extends AppController
         if(!empty($this->request->getQuery())){
             $config = $this->request->getQuery();
         }
-        $items = $this->paginate($this->Items->find()->order(['id'=>'DESC']),$config);
+        $items = $this->paginate($this->Items->find()->order(['name'=>'ASC']),$config);
         $this->set(compact('items'));
         $this->set('params',$config);
         $this->set('_serialize',['items','params']);
