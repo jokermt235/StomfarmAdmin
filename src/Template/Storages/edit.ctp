@@ -6,7 +6,7 @@
                 <input type="text" name="id" value=<?=$storage['id']?>>
             </div>
              <input name="name" class="uk-input" id="name" type="text" placeholder="Название(Имя)"
-                value=<?=$storage['name']?>>
+                value='<?=$storage['name']?>'>
         </div>
     </div>
     <div class="uk-margin">
